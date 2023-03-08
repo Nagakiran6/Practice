@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <!-- welcome message  -->
+    <!-- welcome message (completed)  -->
     <div id="welcome_msg" class="welcome">
         <h2 id="welcome">Good Morning User !</h2>
 
@@ -15,18 +15,31 @@
 
     <!-- main part (TODO list) -->
     <div class="todo_list">
+
+        <!-- input box for todo list -->
         <div id="input_task_container" class="input_task_container">
 
             <div id="input_field" class="input_field">
-                <input type="text" placeholder="Add tasks..." autofocus>
+                <input id="inputBox" type="text" placeholder="Add tasks..." autofocus>
             </div>
 
-            <div class="plus" id="plus" onclick="">
+            <div class="plus" id="plus" onclick="
+             AddTodo()">
                 <img src="./asserts/icons/add.svg" alt="plus_symbol" />
             </div>
         </div>
 
+
+
         <!-- task cards -->
+        <div class="cards">
+            <ul id="cards_ul" class="cards_ul">
+                <li></li>
+            </ul>
+
+        </div>
+
+
     </div>
 
     <script src="./js/index.js"></script>

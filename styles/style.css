@@ -44,3 +44,22 @@ input:focus{
     margin-left: 10px;
     cursor: pointer;
 }
+
+
+.todo_item{
+    border-radius: 10px;
+    display: flex;
+    background-color: white;
+    opacity: 0.6;
+    
+    padding: 10px 10px 10px 10px;
+    width :390px;
+    min-width :350px;
+    margin: 10px;
+    min-height: 60px;
+    font-size: 24px;
+}
+
+.cards_ul{
+    padding-left: unset;
+}
